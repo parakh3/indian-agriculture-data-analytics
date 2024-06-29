@@ -16,3 +16,6 @@ This project involves performing analytics over the Indian Agriculture dataset (
    cd indian-agriculture-data-analytics
    yarn install
    yarn start
+
+![Screenshot 2024-06-29 182651](https://github.com/parakh3/indian-agriculture-data-analytics/assets/63946699/3b2324ff-32e4-4ea9-ac1d-126bc94915a1)
+
