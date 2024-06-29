@@ -100,9 +100,9 @@ const CropAggregationTable: React.FC<{ data: CropData[] }> = ({ data }) => {
       <h2>Aggregated Crop Data</h2>
       <div>
         <h3>Max/Min Production Data</h3>
-        <Table style={{ maxWidth: 600, margin: '0 auto', border: '1px solid black', textAlign: 'center' }}>
+        <Table >
           <TableThead>
-            <Table.Tr style={{ border: '1px solid black' }} >
+            <Table.Tr>
               <Table.Th>Year</Table.Th>
               <Table.Th>Crop with Maximum Production</Table.Th>
               <Table.Th>Crop with Minimum Production</Table.Th>
@@ -122,7 +122,7 @@ const CropAggregationTable: React.FC<{ data: CropData[] }> = ({ data }) => {
 
       <div>
         <h3>Average Yield and Cultivation Area (1950-2020)</h3>
-        <Table style={{ maxWidth: 600, margin: '0 auto', border: '1px solid black', textAlign: 'center' }}>
+        <Table>
           <TableThead>
             <Table.Tr>
               <Table.Th>Crop Name</Table.Th>
